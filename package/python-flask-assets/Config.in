@@ -1,0 +1,9 @@
+config BR2_PACKAGE_PYTHON_FLASK_ASSETS
+	bool "python-flask-assets"
+	select BR2_PACKAGE_PYTHON_FLASK # runtime
+	select BR2_PACKAGE_PYTHON_WEBASSETS # runtime
+	help
+	  Asset management for Flask, to compress and merge CSS and
+	  Javascript files.
+
+	  http://github.com/miracle2k/flask-assets

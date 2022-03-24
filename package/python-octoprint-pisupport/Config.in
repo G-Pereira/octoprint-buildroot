@@ -1,0 +1,6 @@
+config BR2_PACKAGE_PYTHON_OCTOPRINT_PISUPPORT
+	bool "python-octoprint-pisupport"
+	help
+	  Provides additional information about your Pi in the UI.
+
+	  https://github.com/OctoPrint/OctoPrint-PiSupport

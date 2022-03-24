@@ -1,0 +1,5 @@
+# md5, sha256 from https://pypi.org/pypi/OctoPrint/json
+md5  c26870b2af0e37f5a6209d773ccb25e6  OctoPrint-1.7.3.tar.gz
+sha256  125a8f94a02e2e74a6df9e393b401d4c23d7766546896ba2f9e7699fd3da9602  OctoPrint-1.7.3.tar.gz
+# Locally computed sha256 checksums
+sha256  57c8ff33c9c0cfc3ef00e650a1cc910d7ee479a8bc509f6c9209a7c2a11399d6  LICENSE.txt

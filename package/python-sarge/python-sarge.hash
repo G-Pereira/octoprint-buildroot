@@ -1,0 +1,5 @@
+# md5, sha256 from https://pypi.org/pypi/sarge/json
+md5  3e71764b078181277140d1bc3d08439f  sarge-0.1.7.post1.tar.gz
+sha256  64ff42ae6ef90acbded6318ed440ed63b31a669302fb60cf41265debea282a3d  sarge-0.1.7.post1.tar.gz
+# Locally computed sha256 checksums
+sha256  936612db26f7100f6ad4431dda4a3e9e06cf8650373b3b1598a6dce33820c5fb  LICENSE

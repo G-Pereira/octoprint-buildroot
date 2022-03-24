@@ -1,0 +1,39 @@
+config BR2_PACKAGE_PYTHON_OCTOPRINT
+	bool "python-octoprint"
+	select BR2_PACKAGE_PYTHON_BLINKER # runtime
+	select BR2_PACKAGE_PYTHON_CACHELIB # runtime
+	select BR2_PACKAGE_PYTHON_CLICK # runtime
+	select BR2_PACKAGE_PYTHON_EMOJI # runtime
+	select BR2_PACKAGE_PYTHON_FILETYPE # runtime
+	select BR2_PACKAGE_PYTHON_FLASK # runtime
+	select BR2_PACKAGE_PYTHON_FLASK_ASSETS # runtime
+	select BR2_PACKAGE_PYTHON_FLASK_BABEL # runtime
+	select BR2_PACKAGE_PYTHON_FLASK_LOGIN # runtime
+	select BR2_PACKAGE_PYTHON_FUTURE # runtime
+	select BR2_PACKAGE_PYTHON_ITSDANGEROUS # runtime
+	select BR2_PACKAGE_PYTHON_JINJA2 # runtime
+	select BR2_PACKAGE_PYTHON_MARKDOWN # runtime
+	select BR2_PACKAGE_PYTHON_MARKUPSAFE # runtime
+	select BR2_PACKAGE_PYTHON_NETADDR # runtime
+	select BR2_PACKAGE_PYTHON_NETIFACES # runtime
+	select BR2_PACKAGE_PYTHON_OCTOPRINT_FILECHECK # runtime
+	select BR2_PACKAGE_PYTHON_OCTOPRINT_FIRMWARECHECK # runtime
+	select BR2_PACKAGE_PYTHON_OCTOPRINT_PISUPPORT # runtime
+	select BR2_PACKAGE_PYTHON_PKGINFO # runtime
+	select BR2_PACKAGE_PYTHON_PSUTIL # runtime
+	select BR2_PACKAGE_PYTHON_PYLRU # runtime
+	select BR2_PACKAGE_PYTHON_PYSERIAL # runtime
+	select BR2_PACKAGE_PYTHON_PYYAML # runtime
+	select BR2_PACKAGE_PYTHON_REQUESTS # runtime
+	select BR2_PACKAGE_PYTHON_SARGE # runtime
+	select BR2_PACKAGE_PYTHON_SEMANTIC_VERSION # runtime
+	select BR2_PACKAGE_PYTHON_SENTRY_SDK # runtime
+	select BR2_PACKAGE_PYTHON_WATCHDOG # runtime
+	select BR2_PACKAGE_PYTHON_WEBSOCKET_CLIENT # runtime
+	select BR2_PACKAGE_PYTHON_WERKZEUG # runtime
+	select BR2_PACKAGE_PYTHON_WRAPT # runtime
+	select BR2_PACKAGE_PYTHON_ZIPSTREAM_NEW # runtime
+	help
+	  The snappy web interface for your 3D printer.
+
+	  https://octoprint.org

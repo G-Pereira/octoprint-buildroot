@@ -1,0 +1,5 @@
+# md5, sha256 from https://pypi.org/pypi/OctoPrint-FirmwareCheck/json
+md5  4e881f30c220e63b9d3d37cb95ccdd2e  OctoPrint-FirmwareCheck-2021.10.11.tar.gz
+sha256  506861624a8faf2633765eaf2aa6635bead8afc7471a375f399cbe5f33d0f99e  OctoPrint-FirmwareCheck-2021.10.11.tar.gz
+# Locally computed sha256 checksums
+sha256  57c8ff33c9c0cfc3ef00e650a1cc910d7ee479a8bc509f6c9209a7c2a11399d6  LICENSE

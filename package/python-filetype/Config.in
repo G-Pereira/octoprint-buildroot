@@ -1,0 +1,7 @@
+config BR2_PACKAGE_PYTHON_FILETYPE
+	bool "python-filetype"
+	help
+	  Infer file type and MIME type of any file/buffer. No
+	  external dependencies.
+
+	  https://github.com/h2non/filetype.py

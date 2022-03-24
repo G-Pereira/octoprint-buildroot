@@ -1,0 +1,6 @@
+config BR2_PACKAGE_PYTHON_EMOJI
+	bool "python-emoji"
+	help
+	  Emoji for Python.
+
+	  https://github.com/carpedm20/emoji/

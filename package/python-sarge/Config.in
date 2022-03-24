@@ -1,0 +1,7 @@
+config BR2_PACKAGE_PYTHON_SARGE
+	bool "python-sarge"
+	help
+	  A wrapper for subprocess which provides command pipeline
+	  functionality.
+
+	  https://docs.red-dove.com/sarge/
