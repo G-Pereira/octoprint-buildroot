@@ -1,0 +1,5 @@
+# md5, sha256 from https://pypi.org/pypi/frozendict/json
+md5  ccddc98900accefe753483ad01b3f618  frozendict-2.3.2.tar.gz
+sha256  7fac4542f0a13fbe704db4942f41ba3abffec5af8b100025973e59dff6a09d0d  frozendict-2.3.2.tar.gz
+# Locally computed sha256 checksums
+sha256  e3a994d82e644b03a792a930f574002658412f62407f5fee083f2555c5f23118  LICENSE.txt

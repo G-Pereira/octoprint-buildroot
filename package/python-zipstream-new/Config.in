@@ -1,6 +1,0 @@
-config BR2_PACKAGE_PYTHON_ZIPSTREAM_NEW
-	bool "python-zipstream-new"
-	help
-	  Zipfile generator that takes input files as well as streams.
-
-	  https://github.com/arjan-s/python-zipstream

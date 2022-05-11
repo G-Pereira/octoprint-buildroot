@@ -1,0 +1,5 @@
+# md5, sha256 from https://pypi.org/pypi/unicode/json
+md5  aa2de98f34a390c8c1796db1e10ff89d  unicode-2.8.tar.gz
+sha256  000f637428446f64352f72cb782e2a3dc587f14011ee4c9840657062ec3c27ed  unicode-2.8.tar.gz
+# Locally computed sha256 checksums
+sha256  bc4c6d1bea35ea2be7ca62a57c31864a5369e71da05c9e05408ec034883cb825  COPYING
