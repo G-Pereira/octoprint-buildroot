@@ -1,6 +1,0 @@
-config BR2_PACKAGE_PYTHON_ITSDANGEROUS
-	bool "python-itsdangerous"
-	help
-	  Safely pass data to untrusted environments and back.
-
-	  https://palletsprojects.com/p/itsdangerous/

@@ -1,6 +1,0 @@
-config BR2_PACKAGE_PYTHON_NETIFACES
-	bool "python-netifaces"
-	help
-	  Portable network interface information.
-
-	  https://github.com/al45tair/netifaces

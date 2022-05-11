@@ -1,9 +1,0 @@
-# md5, sha256 from https://pypi.org/pypi/flask/json
-md5  93f1832e5be704ef6ff2a4124579cd85  Flask-2.1.2.tar.gz
-sha256  315ded2ddf8a6281567edb27393010fe3406188bafbfe65a3339d5787d89e477  Flask-2.1.2.tar.gz
-# Locally computed sha256 checksums
-sha256  489a8e1108509ed98a37bb983e11e0f7e1d31f0bd8f99a79c8448e7ff37d07ea  LICENSE.rst
-sha256  489a8e1108509ed98a37bb983e11e0f7e1d31f0bd8f99a79c8448e7ff37d07ea  examples/javascript/LICENSE.rst
-sha256  489a8e1108509ed98a37bb983e11e0f7e1d31f0bd8f99a79c8448e7ff37d07ea  examples/tutorial/LICENSE.rst
-sha256  7535eac513edd12fb8e33f203c6a403549629e34b363418cdbd6c6ea5464515d  docs/license.rst
-sha256  2e63a3bd3a1f97e2fa9fa33bbf4f61bbb56ee16beb125b5346b0012388dc3b49  artwork/LICENSE.rst

@@ -1,7 +1,0 @@
-config BR2_PACKAGE_PYTHON_NETADDR
-	bool "python-netaddr"
-	select BR2_PACKAGE_PYTHON_IMPORTLIB_RESOURCES # runtime
-	help
-	  A network address manipulation library for Python.
-
-	  https://github.com/drkjam/netaddr/

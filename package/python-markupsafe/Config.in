@@ -1,6 +1,0 @@
-config BR2_PACKAGE_PYTHON_MARKUPSAFE
-	bool "python-markupsafe"
-	help
-	  Safely add untrusted strings to HTML/XML markup.
-
-	  https://palletsprojects.com/p/markupsafe/

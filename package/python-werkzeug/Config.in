@@ -1,6 +1,0 @@
-config BR2_PACKAGE_PYTHON_WERKZEUG
-	bool "python-werkzeug"
-	help
-	  The comprehensive WSGI web application library.
-
-	  https://palletsprojects.com/p/werkzeug/

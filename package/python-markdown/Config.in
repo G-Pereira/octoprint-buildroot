@@ -1,7 +1,0 @@
-config BR2_PACKAGE_PYTHON_MARKDOWN
-	bool "python-markdown"
-	select BR2_PACKAGE_PYTHON_IMPORTLIB_METADATA # runtime
-	help
-	  Python implementation of Markdown.
-
-	  https://Python-Markdown.github.io/
