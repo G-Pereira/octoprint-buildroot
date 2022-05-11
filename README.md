@@ -4,7 +4,7 @@ This is a minimal linux image to increase resource usage eficiency of Octoprint 
 
 ## How to build
 
-1. Clone this repository recursively: ` git clone --recursive `
+1. Clone this repository recursively: ` git clone --recursive https://github.com/G-Pereira/octoprint-buildroot`
 2. Go into buildroot directory: ` cd octoprint-buildroot/buildroot `
 3. Configure build for Orange Pi Zero: ` make BR2_EXTERNAL=../ octoprint_oragepi_zero_defconfig `
 4. Build the image (change `BR2_JLEVEL` to desired number of parallel jobs): `make BR2_EXTERNAL=../ BR2_JLEVEL=4`
