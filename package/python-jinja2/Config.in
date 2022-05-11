@@ -1,0 +1,7 @@
+config BR2_PACKAGE_PYTHON_JINJA2
+	bool "python-jinja2"
+	select BR2_PACKAGE_PYTHON_MARKUPSAFE # runtime
+	help
+	  A very fast and expressive template engine.
+
+	  https://palletsprojects.com/p/jinja/

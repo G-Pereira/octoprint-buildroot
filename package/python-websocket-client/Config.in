@@ -1,0 +1,6 @@
+config BR2_PACKAGE_PYTHON_WEBSOCKET_CLIENT
+	bool "python-websocket-client"
+	help
+	  WebSocket client for Python with low level API options.
+
+	  https://github.com/websocket-client/websocket-client.git

@@ -1,0 +1,6 @@
+config BR2_PACKAGE_PYTHON_WATCHDOG
+	bool "python-watchdog"
+	help
+	  Filesystem events monitoring.
+
+	  https://github.com/gorakhargosh/watchdog

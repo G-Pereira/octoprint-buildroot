@@ -1,0 +1,6 @@
+config BR2_PACKAGE_PYTHON_PYYAML
+	bool "python-pyyaml"
+	help
+	  YAML parser and emitter for Python.
+
+	  https://pyyaml.org/
