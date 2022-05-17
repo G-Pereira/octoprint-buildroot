@@ -22,5 +22,7 @@ BR2_PACKAGE_PYTHON_PIP=y
 BR2_PACKAGE_PYTHON_WHEEL=y
 BR2_PACKAGE_PYTHON_OCTOPRINT=y
 BR2_TARGET_ROOTFS_EXT2_SIZE="150M"
+
+BR2_ROOTFS_OVERLAY="$(BR2_EXTERNAL_OCTOPRINT_PATH)/board/orangepi_zero/octoprint/rootfs-overlay"
 ```
-**Note**: Change the file system size as needed (`BR2_TARGET_ROOTFS_EXT2_SIZE`).
+**Note**: Change the file system size and overlay files as needed (`BR2_TARGET_ROOTFS_EXT2_SIZE`).
