@@ -5,10 +5,12 @@ This is a minimal linux image to increase resource usage eficiency of Octoprint 
 ## How to build
 
 1. Clone this repository recursively: ` git clone --recursive https://github.com/G-Pereira/octoprint-buildroot`
-2. Go into buildroot directory: ` cd octoprint-buildroot/buildroot `
-3. Configure build for Orange Pi Zero: ` make BR2_EXTERNAL=../ octoprint_oragepi_zero_defconfig `
-4. Build the image (change `BR2_JLEVEL` to desired number of parallel jobs): `make BR2_EXTERNAL=../ BR2_JLEVEL=4`
-5. Flash the image to an SD card (ex. dd or [BalenaEtcher](https://www.balena.io/etcher/)) for example: `dd if=output/images/sdcard.img of=/dev/mmcblk0`
+2. Navigate into the repository: ` cd octoprint-buildroot `
+3. Add your WiFi credentials: ` nano board/orangepi_zero/octoprint/rootfs-overlay/etc/wpa_supplicant.conf `
+4. Navigate to buildroot folder: ` cd buildroot `
+5. Configure build for Orange Pi Zero: ` make BR2_EXTERNAL=../ octoprint_oragepi_zero_defconfig `
+6. Build the image (change `BR2_JLEVEL` to desired number of parallel jobs): `make BR2_EXTERNAL=../ BR2_JLEVEL=4`
+7. Flash the image to an SD card (ex. dd or [BalenaEtcher](https://www.balena.io/etcher/)) for example: `dd if=output/images/sdcard.img of=/dev/mmcblk0`
 
 ## Using other boards
 
@@ -26,3 +28,7 @@ BR2_TARGET_ROOTFS_EXT2_SIZE="150M"
 BR2_ROOTFS_OVERLAY="$(BR2_EXTERNAL_OCTOPRINT_PATH)/board/orangepi_zero/octoprint/rootfs-overlay"
 ```
 **Note**: Change the file system size and overlay files as needed (`BR2_TARGET_ROOTFS_EXT2_SIZE`).
+
+## Credits
+
+Used buildroot's `utils/scanpypi` script as base and @smcgroty 's [initial work](https://github.com/smcgroty/octoprint-buildroot) as inspiration.
