@@ -31,4 +31,4 @@ BR2_ROOTFS_OVERLAY="$(BR2_EXTERNAL_OCTOPRINT_PATH)/board/orangepi_zero/octoprint
 
 ## Credits
 
-Used buildroot's `utils/scanpypi` script as base and @smcgroty 's [initial work](https://github.com/smcgroty/octoprint-buildroot) as inspiration.
+Used buildroot's `utils/scanpypi` script as base and smcgroty's [initial work](https://github.com/smcgroty/octoprint-buildroot) as inspiration.
