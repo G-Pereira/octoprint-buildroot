@@ -1,0 +1,5 @@
+# md5, sha256 from https://pypi.org/pypi/webassets/json
+md5  25270b7a0452cf8a0af29898e0411c2e  webassets-2.0.tar.gz
+sha256  167132337677c8cedc9705090f6d48da3fb262c8e0b2773b29f3352f050181cd  webassets-2.0.tar.gz
+# Locally computed sha256 checksums
+sha256  99fc9556fa50ed3519996971bf2ec1abf9f4b63f0f3f4ed15cdee84e306134b7  LICENSE

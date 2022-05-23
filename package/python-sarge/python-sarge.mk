@@ -4,9 +4,9 @@
 #
 ################################################################################
 
-PYTHON_SARGE_VERSION = 0.1.7.post1
+PYTHON_SARGE_VERSION = 0.1.6
 PYTHON_SARGE_SOURCE = sarge-$(PYTHON_SARGE_VERSION).tar.gz
-PYTHON_SARGE_SITE = https://files.pythonhosted.org/packages/3e/03/937f1f848ffe04c48e2dd0bd6c93da1a583d58695bb74a8957650ea6f0d0
+PYTHON_SARGE_SITE = https://files.pythonhosted.org/packages/2c/39/d5994d2060edef17c03e70eb8d9c4ac44ffae0294fe7bb3dc953e67133d8
 PYTHON_SARGE_SETUP_TYPE = distutils
 PYTHON_SARGE_LICENSE = FIXME: please specify the exact BSD version
 PYTHON_SARGE_LICENSE_FILES = LICENSE

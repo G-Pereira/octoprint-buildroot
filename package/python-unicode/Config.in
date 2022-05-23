@@ -1,6 +1,0 @@
-config BR2_PACKAGE_PYTHON_UNICODE
-	bool "python-unicode"
-	help
-	  Display unicode character properties.
-
-	  http://kassiopeia.juls.savba.sk/~garabik/software/unicode.html

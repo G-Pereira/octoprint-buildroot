@@ -1,6 +1,6 @@
 # md5, sha256 from https://pypi.org/pypi/feedparser/json
-md5  8d0ba773e049e8f1edc2541737593a92  feedparser-6.0.8.tar.gz
-sha256  5ce0410a05ab248c8c7cfca3a0ea2203968ee9ff4486067379af4827a59f9661  feedparser-6.0.8.tar.gz
+md5  45716da638688577c7b0587a0a839a21  feedparser-6.0.10.tar.gz
+sha256  27da485f4637ce7163cdeab13a80312b93b7d0c1b775bef4a47629a3110bca51  feedparser-6.0.10.tar.gz
 # Locally computed sha256 checksums
 sha256  d7cbbba3ca685379beaa243d8f18d124f73adfe6b1c52b89f4d3dec2feaa0589  LICENSE
 sha256  7ab3a161f9e324fbfc166bd4c648f70a5da73c201b66b67fa374609c55d6fcff  docs/license.rst

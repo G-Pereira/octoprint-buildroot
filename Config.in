@@ -1,1 +1,1 @@
-source "$BR2_EXTERNAL_OCTOPRINT_PATH/package/python-octoprint/Config.in"
+source "$BR2_EXTERNAL_OCTOPRINT_PATH/package/Config.in"
